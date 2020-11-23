@@ -1,0 +1,32 @@
+{
+  "name": "node-api-lotto-powerball-application",
+  "version": "1.0.0",
+  "description": "node api for lotto coin",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "author": "manish",
+  "license": "ISC",
+  "dependencies": {
+    "array-find-duplicates": "^2.0.1",
+    "axios": "^0.20.0",
+    "cookie-parser": "^1.4.5",
+    "crypto-random-string": "^3.2.0",
+    "csv-parser": "^2.3.3",
+    "delay": "^4.4.0",
+    "exact-math": "^2.2.3",
+    "express": "^4.17.1",
+    "express-swagger-generator": "^1.1.17",
+    "express-validator": "^6.6.0",
+    "from-exponential": "^1.0.0",
+    "mongodb": "^3.6.2",
+    "mongoose": "^4.0.4",
+    "morgan": "^1.10.0",
+    "node-cron": "^2.0.3",
+    "node-run-cmd": "^1.0.1",
+    "swagger-ui-express": "^4.1.4",
+    "web3": "^1.2.11"
+  }
+}
